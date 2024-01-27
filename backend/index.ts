@@ -17,7 +17,7 @@ app.use(cors());
 
 app.get("/", (req, res) => {
   console.log(req);
-  return res.status(234).send("Welcome to mern stack");
+  return res.send("test");
 });
 
 app.use("/api/users", usersRoute);
